@@ -10,7 +10,7 @@ A collection of end-to-end data analytics projects demonstrating applied skills 
 
 Exploratory analysis of global COVID-19 case, death, and vaccination data. Calculated infection rates, death percentages, and rolling vaccination metrics using joins, CTEs, aggregations, and window functions. The focus is on extracting meaningful insight rather than raw data reporting.
 
-**Path:** `PortfolioProjects/CovidData.sql`
+**Path:** [`PortfolioProjects/CovidData.sql`](./PortfolioProjects/CovidData.sql)
 
 ---
 
