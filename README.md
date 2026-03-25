@@ -18,7 +18,7 @@ Exploratory analysis of global COVID-19 case, death, and vaccination data. Calcu
 
 End-to-end data cleaning pipeline built entirely in SQL. Standardized date formats and address fields, normalized categorical values, removed duplicates, and dropped unused columns. Demonstrates production-style data preparation techniques.
 
-**Path:** `PortfolioProjects/NashvilleHousingData.sql`
+**Path:** [`PortfolioProjects/NashvilleHousingData.sql`](./PortfolioProjects/NashvilleHousingData.sql)
 
 ---
 
@@ -26,7 +26,7 @@ End-to-end data cleaning pipeline built entirely in SQL. Standardized date forma
 
 Interactive dashboard analyzing survey responses from data professionals. Covers salary trends by role, programming language preferences, and job satisfaction levels. Designed with an emphasis on clean visuals and executive-level storytelling. A PDF export is included for quick preview.
 
-**Path:** `PowerBI/`
+**Path:** [`PowerBI/`](./PowerBI)
 
 ---
 
@@ -34,7 +34,7 @@ Interactive dashboard analyzing survey responses from data professionals. Covers
 
 Business reporting dashboard highlighting sales trends, category performance, and key KPIs. A PNG snapshot is included for easy viewing without Tableau Desktop.
 
-**Path:** `TABLEAU/`
+**Path:** [`TABLEAU/`](./TABLEAU)
 
 ---
 
@@ -42,7 +42,7 @@ Business reporting dashboard highlighting sales trends, category performance, an
 
 Excel-based dashboard using pivot tables, slicers, and charts to analyze customer demographics and purchasing behavior. Demonstrates business-focused analytics built entirely within Excel.
 
-**Path:** `EXCEL/Excel Portfolio Project/Bike Sales Dashboard.xlsx`
+**Path:** [`EXCEL/Excel Portfolio Project/Bike Sales Dashboard.xlsx`](./EXCEL/Excel%20Portfolio%20Project/Bike%20Sales%20Dashboard.xlsx)
 
 ---
 
@@ -50,7 +50,7 @@ Excel-based dashboard using pivot tables, slicers, and charts to analyze custome
 
 Scraped real website data using BeautifulSoup and the Requests library, then structured and analyzed the results with Pandas. Demonstrates a practical data collection-to-analysis pipeline.
 
-**Path:** `Python/Basic Projects/BeautifulSoup and Requests (Web Scraping).ipynb`
+**Path:** [`Python/Basic Projects/BeautifulSoup and Requests (Web Scraping).ipynb`](./Python/Basic%20Projects/BeautifulSoup%20and%20Requests%20(Web%20Scraping).ipynb)
 
 ---
 
@@ -58,7 +58,7 @@ Scraped real website data using BeautifulSoup and the Requests library, then str
 
 A file automation script that organizes files in a directory into categorized folders based on file type. A practical example of using Python to streamline repetitive file management tasks.
 
-**Path:** `Python/Basic Projects/Automatic File Sorter in File Explorer.ipynb`
+**Path:** [`Python/Basic Projects/Automatic File Sorter in File Explorer.ipynb`](./Python/Basic%20Projects/Automatic%20File%20Sorter%20in%20File%20Explorer.ipynb)
 
 ---
 
@@ -66,7 +66,7 @@ A file automation script that organizes files in a directory into categorized fo
 
 Notebooks covering core Pandas workflows including reading data from files, filtering and ordering DataFrames, and using find operations for data exploration. Built around a real companies dataset.
 
-**Path:** `Python/Basic Projects/`
+**Path:** [`Python/Basic Projects/`](./Python/Basic%20Projects)
 
 ---
 
