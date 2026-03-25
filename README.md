@@ -1,35 +1,78 @@
-# 📊 Data Analytics Portfolio Projects
+# Data Analytics Portfolio
 
-This repository contains a curated collection of **data analytics projects** showcasing my skills across **SQL, Python, Excel, Power BI, and Tableau**.
-The focus is on **end-to-end analytics workflows**—from data cleaning and transformation to analysis, visualization, and business insight generation.
-
-The repository is organized to clearly distinguish **portfolio-grade projects** from **learning and practice work**.
+A collection of end-to-end data analytics projects demonstrating applied skills in **SQL**, **Python**, **Excel**, **Power BI**, and **Tableau** — from raw data cleaning and transformation through analysis, visualization, and business insight delivery.
 
 ---
 
-## 🔍 Portfolio Highlights
+## Featured Projects
 
-| Project                                 | Tools    | Focus Areas                                         |
-| --------------------------------------- | -------- | --------------------------------------------------- |
-| **COVID-19 Data Analysis**              | SQL      | Exploratory analysis, KPIs, joins, window functions |
-| **Nashville Housing Data Cleaning**     | SQL      | Data cleaning, normalization, de-duplication        |
-| **Data Professionals Survey Dashboard** | Power BI | Dashboard design, insight storytelling              |
-| **Sales Performance Dashboard**         | Tableau  | Visual analytics, executive dashboard               |
-| **Bike Sales Dashboard**                | Excel    | Excel dashboards, pivot tables, business metrics    |
+### COVID-19 Global Data Analysis — SQL
+
+Exploratory analysis of global COVID-19 case, death, and vaccination data. Calculated infection rates, death percentages, and rolling vaccination metrics using joins, CTEs, aggregations, and window functions. The focus is on extracting meaningful insight rather than raw data reporting.
+
+**Path:** `PortfolioProjects/CovidData.sql`
 
 ---
 
-## 📁 Repository Structure
+### Nashville Housing Data Cleaning — SQL
+
+End-to-end data cleaning pipeline built entirely in SQL. Standardized date formats and address fields, normalized categorical values, removed duplicates, and dropped unused columns. Demonstrates production-style data preparation techniques.
+
+**Path:** `PortfolioProjects/NashvilleHousingData.sql`
+
+---
+
+### Data Professionals Survey Dashboard — Power BI
+
+Interactive dashboard analyzing survey responses from data professionals. Covers salary trends by role, programming language preferences, and job satisfaction levels. Designed with an emphasis on clean visuals and executive-level storytelling. A PDF export is included for quick preview.
+
+**Path:** `PowerBI/`
+
+---
+
+### Sales Performance Dashboard — Tableau
+
+Business reporting dashboard highlighting sales trends, category performance, and key KPIs. A PNG snapshot is included for easy viewing without Tableau Desktop.
+
+**Path:** `TABLEAU/`
+
+---
+
+### Bike Sales Dashboard — Excel
+
+Excel-based dashboard using pivot tables, slicers, and charts to analyze customer demographics and purchasing behavior. Demonstrates business-focused analytics built entirely within Excel.
+
+**Path:** `EXCEL/Excel Portfolio Project/Bike Sales Dashboard.xlsx`
+
+---
+
+### Web Scraping with BeautifulSoup & Pandas — Python
+
+Scraped real website data using BeautifulSoup and the Requests library, then structured and analyzed the results with Pandas. Demonstrates a practical data collection-to-analysis pipeline.
+
+**Path:** `Python/Basic Projects/BeautifulSoup and Requests (Web Scraping).ipynb`
+
+---
+
+### Automatic File Sorter — Python
+
+A file automation script that organizes files in a directory into categorized folders based on file type. A practical example of using Python to streamline repetitive file management tasks.
+
+**Path:** `Python/Basic Projects/Automatic File Sorter in File Explorer.ipynb`
+
+---
+
+### Pandas Data Analysis — Python
+
+Notebooks covering core Pandas workflows including reading data from files, filtering and ordering DataFrames, and using find operations for data exploration. Built around a real companies dataset.
+
+**Path:** `Python/Basic Projects/`
+
+---
+
+## Repository Structure
 
 ```
-Data-Analytics-PortfolioProjects
-│
-├── EXCEL/
-│   ├── Excel Fundamentals/
-│   │   └── Practice workbooks (formulas, charts, lookups, cleaning)
-│   └── Excel Portfolio Project/
-│       └── Bike Sales Dashboard.xlsx
-│
 ├── PortfolioProjects/
 │   ├── CovidData.sql
 │   ├── NashvilleHousingData.sql
@@ -45,94 +88,46 @@ Data-Analytics-PortfolioProjects
 │   ├── Portfolio Project Sales Data Visualization.twb
 │   └── Sales Dashboard.png
 │
+├── EXCEL/
+│   ├── Excel Portfolio Project/
+│   │   └── Bike Sales Dashboard.xlsx
+│   └── Excel Fundamentals/
+│
 ├── Python/
-│   ├── Python Fundamentals/
-│   │   └── Core Python concepts and practice notebooks
-│   └── Basic Projects/
-│       └── Small Python automation and data tasks
+│   ├── Basic Projects/
+│   │   ├── Automatic File Sorter in File Explorer.ipynb
+│   │   ├── BeautifulSoup and Requests (Web Scraping).ipynb
+│   │   ├── Filtering and Ordering DataFrames.ipynb
+│   │   ├── Find and Find_All.ipynb
+│   │   ├── Pandas - Reading in Files.ipynb
+│   │   ├── Scraping Data From a Real Website + Pandas.ipynb
+│   │   ├── BMI Calculator.ipynb
+│   │   ├── Companies.csv
+│   │   └── dataset + input files/
+│   └── Python Fundamentals/
 │
 └── README.md
 ```
 
 ---
 
-## 📌 Project Summaries
+## Tools & Technologies
 
-### 1️⃣ COVID-19 Data Analysis (SQL)
-
-**Folder:** `PortfolioProjects/`
-**Files:** `CovidData.sql`
-
-* Analyzed global COVID-19 case, death, and vaccination data
-* Calculated infection rates, death percentages, and rolling vaccination metrics
-* Used **joins, CTEs, aggregations, and window functions**
-* Focused on insight extraction rather than raw data reporting
+| Category         | Tools                                      |
+| ---------------- | ------------------------------------------ |
+| Databases & SQL  | PostgreSQL, SQL Server                     |
+| Visualization    | Power BI, Tableau                          |
+| Spreadsheets     | Excel (pivot tables, dashboards, formulas) |
+| Programming      | Python (pandas, BeautifulSoup, automation) |
 
 ---
 
-### 2️⃣ Nashville Housing Data Cleaning (SQL)
+## Supporting Work
 
-**Folder:** `PortfolioProjects/`
-**Files:** `NashvilleHousingData.sql`
-
-* Performed end-to-end data cleaning in SQL
-* Standardized date formats and address fields
-* Normalized categorical values (Y/N → Yes/No)
-* Removed duplicates and unused columns
-* Demonstrates **production-style SQL data preparation**
+The **Python Fundamentals** and **Excel Fundamentals** folders contain learning notebooks and practice exercises that underpin the portfolio projects above. They are included to show breadth of skill development across core data analytics tools.
 
 ---
 
-### 3️⃣ Data Professionals Survey Dashboard (Power BI)
+## Contact
 
-**Folder:** `PowerBI/`
-**Files:** `.pbix`, `.pdf`
-
-* Interactive dashboard analyzing survey responses from data professionals
-* Visualized salary trends, job roles, programming language preferences, and satisfaction levels
-* Emphasis on **clean visuals, storytelling, and executive-level insights**
-* PDF included for quick preview without Power BI
-
----
-
-### 4️⃣ Sales Performance Dashboard (Tableau)
-
-**Folder:** `TABLEAU/`
-**Files:** `.twb`, `Sales Dashboard.png`
-
-* Built a sales performance dashboard for business reporting
-* Highlights trends, category performance, and key KPIs
-* PNG snapshot provided for easy viewing
-
----
-
-### 5️⃣ Bike Sales Dashboard (Excel)
-
-**Folder:** `EXCEL/Excel Portfolio Project/`
-**Files:** `Bike Sales Dashboard.xlsx`
-
-* Excel dashboard using pivot tables, slicers, and charts
-* Analyzed customer demographics and purchasing behavior
-* Demonstrates **business-focused Excel analytics**
-
----
-
-## 🧠 Learning & Practice (Supporting Skills)
-
-The following folders contain **learning notebooks and practice projects** that support the portfolio work:
-
-* **Python Fundamentals**: variables, loops, functions, data structures
-* **Basic Python Projects**: small automation tasks, file handling, web scraping
-* **Excel Fundamentals**: formulas, lookups, charts, conditional formatting
-
-These are included to show **breadth of learning**, while portfolio projects highlight applied skills.
-
----
-
-## 🛠️ Tools & Technologies
-
-* **SQL** (PostgreSQL / SQL Server syntax)
-* **Python** (pandas, basic automation, data handling)
-* **Excel** (pivot tables, dashboards, formulas)
-* **Power BI**
-* **Tableau**
+Feel free to reach out for questions, collaboration, or feedback.
